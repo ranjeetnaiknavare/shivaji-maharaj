@@ -23,7 +23,7 @@ export default function TimelineSection() {
               description="Born to Shahaji Bhonsale and Jijabai at Shivneri Fort. His mother Jijabai was a deeply religious woman who instilled in him strong values and a sense of purpose."
               icon={<Crown className="w-6 h-6" />}
               color="bg-orange-100 text-orange-600 border-orange-300"
-              image="/placeholder.svg?height=400&width=600&query=Shivneri Fort birthplace of Shivaji Maharaj"
+              image="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Shivneri_Fort_Entrance.jpg/1280px-Shivneri_Fort_Entrance.jpg"
               imageAlt="Shivneri Fort - Birthplace of Shivaji Maharaj"
             />
             <TimelineItem
@@ -32,7 +32,7 @@ export default function TimelineSection() {
               description="At the age of 16, captured his first fort, Torna, from the Bijapur Sultanate. This marked the beginning of his lifelong mission to establish Swarajya (self-rule)."
               icon={<Castle className="w-6 h-6" />}
               color="bg-blue-100 text-blue-600 border-blue-300"
-              image="/placeholder.svg?height=400&width=600&query=Torna Fort Maharashtra first conquest of Shivaji Maharaj"
+              image="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Torna_Fort.jpg/1280px-Torna_Fort.jpg"
               imageAlt="Torna Fort - First conquest of Shivaji Maharaj"
               reverse
             />
@@ -42,7 +42,7 @@ export default function TimelineSection() {
               description="Took control of Raigad, which would later become his capital. The fort's strategic location made it an ideal administrative center for the growing Maratha kingdom."
               icon={<Mountain className="w-6 h-6" />}
               color="bg-green-100 text-green-600 border-green-300"
-              image="/placeholder.svg?height=400&width=600&query=Raigad Fort Maharashtra capital of Shivaji's kingdom"
+              image="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Raigad_Fort_Aerial_view.jpg/1280px-Raigad_Fort_Aerial_view.jpg"
               imageAlt="Raigad Fort - Capital of Shivaji's kingdom"
             />
             <TimelineItem
@@ -51,7 +51,7 @@ export default function TimelineSection() {
               description="Defeated and killed Afzal Khan, a general of the Adilshahi Sultanate, in a legendary encounter that significantly enhanced his reputation and strengthened his position."
               icon={<Sword className="w-6 h-6" />}
               color="bg-red-100 text-red-600 border-red-300"
-              image="/placeholder.svg?height=400&width=600&query=Battle of Pratapgad Shivaji versus Afzal Khan"
+              image="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Pratapgad_fort.jpg/1280px-Pratapgad_fort.jpg"
               imageAlt="Battle of Pratapgad - Victory over Afzal Khan"
               reverse
             />
@@ -61,7 +61,7 @@ export default function TimelineSection() {
               description="Led a raid on Surat, one of the Mughal Empire's richest ports. This bold move directly challenged Mughal authority and provided resources for his campaigns."
               icon={<Ship className="w-6 h-6" />}
               color="bg-purple-100 text-purple-600 border-purple-300"
-              image="/placeholder.svg?height=400&width=600&query=Surat port raid by Shivaji Maharaj"
+              image="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Surat_Castle.jpg/1280px-Surat_Castle.jpg"
               imageAlt="Sack of Surat - Challenging the Mughal Empire"
             />
             <TimelineItem
@@ -70,7 +70,7 @@ export default function TimelineSection() {
               description="Visited Emperor Aurangzeb's court in Agra and made a daring escape when he felt threatened. This escape is celebrated as another example of his resourcefulness and courage."
               icon={<Shield className="w-6 h-6" />}
               color="bg-amber-100 text-amber-600 border-amber-300"
-              image="/placeholder.svg?height=400&width=600&query=Shivaji's escape from Agra in fruit baskets"
+              image="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Agra_Fort_-_Diwan-i-Am.jpg/1280px-Agra_Fort_-_Diwan-i-Am.jpg"
               imageAlt="Shivaji's escape from Agra"
               reverse
             />
@@ -80,7 +80,7 @@ export default function TimelineSection() {
               description="Crowned as Chhatrapati (Sovereign) at Raigad Fort, establishing an independent Maratha kingdom. This historic event marked the establishment of a sovereign Hindu state after centuries of Muslim rule."
               icon={<Crown className="w-6 h-6" />}
               color="bg-orange-100 text-orange-600 border-orange-300"
-              image="/placeholder.svg?height=400&width=600&query=Coronation ceremony of Shivaji Maharaj at Raigad"
+              image="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Statue_of_Shivaji_Maharaj_at_Raigad_Fort.jpg/800px-Statue_of_Shivaji_Maharaj_at_Raigad_Fort.jpg"
               imageAlt="Coronation ceremony of Shivaji Maharaj"
             />
             <TimelineItem
@@ -89,7 +89,7 @@ export default function TimelineSection() {
               description="Implemented progressive governance systems including the Ashtapradhan (Council of Eight Ministers), fair taxation, and a judicial system that provided justice to all citizens regardless of religion or caste."
               icon={<Scroll className="w-6 h-6" />}
               color="bg-teal-100 text-teal-600 border-teal-300"
-              image="/placeholder.svg?height=400&width=600&query=Shivaji's administrative council Ashtapradhan"
+              image="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Darbar_Hall_at_Raigad_Fort.jpg/1280px-Darbar_Hall_at_Raigad_Fort.jpg"
               imageAlt="Shivaji's administrative council"
               reverse
             />
@@ -99,7 +99,7 @@ export default function TimelineSection() {
               description="Passed away at Raigad Fort at the age of 50, leaving behind a legacy that would shape Indian history. His vision of Swarajya and his principles of governance continue to inspire millions."
               icon={<Heart className="w-6 h-6" />}
               color="bg-gray-100 text-gray-600 border-gray-300"
-              image="/placeholder.svg?height=400&width=600&query=Legacy of Shivaji Maharaj memorial"
+              image="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Samadhi_of_Chhatrapati_Shivaji_Maharaj.jpg/1280px-Samadhi_of_Chhatrapati_Shivaji_Maharaj.jpg"
               imageAlt="Legacy of Shivaji Maharaj"
             />
           </div>

@@ -16,7 +16,7 @@ export default function Home() {
         <section className="relative">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/shivaji-maharaj-saffron-banner.png"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Pratapgad_fort.jpg/1280px-Pratapgad_fort.jpg"
               alt="Chhatrapati Shivaji Maharaj"
               fill
               className="object-cover brightness-[0.35]"
@@ -93,7 +93,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl md:order-1 order-2">
                 <Image
-                  src="/Jijabai-Maratha-Portrait.png"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Rajmata_Jijabai.jpg/800px-Rajmata_Jijabai.jpg"
                   alt="Jijabai - Mother of Shivaji Maharaj"
                   fill
                   className="object-cover"
@@ -233,7 +233,12 @@ export default function Home() {
                 </blockquote>
               </div>
               <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
-                <Image src="/sant-tukaram-devotees.png" alt="Sant Tukaram" fill className="object-cover" />
+                <Image
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sant_Tukaram.jpg/800px-Sant_Tukaram.jpg"
+                  alt="Sant Tukaram"
+                  fill
+                  className="object-cover"
+                />
               </div>
             </div>
           </div>
@@ -341,7 +346,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
                 <Image
-                  src="/maratha-flag-waving.png"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Bhagwa_Jhanda.jpg/800px-Bhagwa_Jhanda.jpg"
                   alt="Bhagwa Dhwaj - The Saffron Flag"
                   fill
                   className="object-cover"
@@ -399,7 +404,7 @@ export default function Home() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="relative h-48 md:h-64 rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=400&width=600&query=Raigad Fort Maharashtra aerial view"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Raigad_Fort_Aerial_view.jpg/1280px-Raigad_Fort_Aerial_view.jpg"
                   alt="Raigad Fort"
                   fill
                   className="object-cover hover:scale-105 transition-transform"
@@ -410,7 +415,7 @@ export default function Home() {
               </div>
               <div className="relative h-48 md:h-64 rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=400&width=600&query=Pratapgad Fort Maharashtra mountain fortress"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Pratapgad_fort.jpg/1280px-Pratapgad_fort.jpg"
                   alt="Pratapgad Fort"
                   fill
                   className="object-cover hover:scale-105 transition-transform"
@@ -421,7 +426,7 @@ export default function Home() {
               </div>
               <div className="relative h-48 md:h-64 rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=400&width=600&query=Sindhudurg Fort Maharashtra sea fortress"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Sindhudurg_Fort.JPG/1280px-Sindhudurg_Fort.JPG"
                   alt="Sindhudurg Fort"
                   fill
                   className="object-cover hover:scale-105 transition-transform"
@@ -432,7 +437,7 @@ export default function Home() {
               </div>
               <div className="relative h-48 md:h-64 rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=400&width=600&query=Rajgad Fort Maharashtra hilltop fortress"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Rajgad_Fort.jpg/1280px-Rajgad_Fort.jpg"
                   alt="Rajgad Fort"
                   fill
                   className="object-cover hover:scale-105 transition-transform"
@@ -472,7 +477,7 @@ export default function Home() {
               </div>
               <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl order-1 md:order-2">
                 <Image
-                  src="/placeholder.svg?height=800&width=600&query=statue of Chhatrapati Shivaji Maharaj on horseback with sword"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Statue_of_Shivaji_Maharaj_at_Raigad_Fort.jpg/800px-Statue_of_Shivaji_Maharaj_at_Raigad_Fort.jpg"
                   alt="Chhatrapati Shivaji Maharaj's Legacy"
                   fill
                   className="object-cover"

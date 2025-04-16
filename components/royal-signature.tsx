@@ -33,7 +33,7 @@ export function RoyalSignature({
       {legendary && <div className="absolute inset-0 bg-orange-300/20 rounded-full blur-xl animate-pulse -z-10"></div>}
       <div className={cn("relative", heights[size], widths[size], legendary && "animate-float")}>
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Shivaji_I_signature-UhfDCmx7Aj4Wa4TZMYByePwdomZ0nN.png"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Shivaji_I_signature.svg/1200px-Shivaji_I_signature.svg.png"
           alt="Signature of Chhatrapati Shivaji Maharaj"
           fill
           className={cn(

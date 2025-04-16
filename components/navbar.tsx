@@ -12,12 +12,12 @@ export default function Navbar() {
     <header className="w-full border-b border-gray-800 bg-gray-900 text-white">
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
         <Link href="/" className="flex items-center space-x-3">
-          <div className="relative h-12 w-12 overflow-hidden">
+          <div className="relative h-12 w-12 overflow-hidden rounded-full">
             <Image
-              src="https://i.ibb.co/Jk1Lm1L/shivaji-logo.png"
+              src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Chhatrapati_Shivaji_Maharaj.jpg"
               alt="Chhatrapati Shivaji Maharaj Logo"
               fill
-              className="object-contain"
+              className="object-cover"
             />
           </div>
           <div>

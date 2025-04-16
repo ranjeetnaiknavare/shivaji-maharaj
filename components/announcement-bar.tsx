@@ -6,7 +6,7 @@ export default function AnnouncementBar() {
       <div className="container mx-auto flex items-center justify-center">
         <div className="relative h-5 w-5 mr-2">
           <Image
-            src="https://i.ibb.co/Jq9VVHM/bhagwa-dhwaj.jpg"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Bhagwa_Jhanda.jpg/800px-Bhagwa_Jhanda.jpg"
             alt="Bhagwa Dhwaj"
             fill
             className="object-cover rounded"
@@ -15,7 +15,7 @@ export default function AnnouncementBar() {
         <span className="font-semibold animate-pulse">जय शिवाजी, जय भवानी | Jay Shivaji, Jay Bhavani</span>
         <div className="relative h-5 w-5 ml-2">
           <Image
-            src="https://i.ibb.co/Jq9VVHM/bhagwa-dhwaj.jpg"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Bhagwa_Jhanda.jpg/800px-Bhagwa_Jhanda.jpg"
             alt="Bhagwa Dhwaj"
             fill
             className="object-cover rounded"

@@ -121,7 +121,7 @@ export default function Footer() {
           <div className="flex justify-center mb-4">
             <div className="relative h-10 w-16">
               <Image
-                src="https://i.ibb.co/Jq9VVHM/bhagwa-dhwaj.jpg"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Bhagwa_Jhanda.jpg/800px-Bhagwa_Jhanda.jpg"
                 alt="Bhagwa Dhwaj"
                 fill
                 className="object-cover rounded"

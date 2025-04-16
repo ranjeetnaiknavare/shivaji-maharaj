@@ -9,7 +9,7 @@ export default function HeroPortrait() {
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-orange-200 to-orange-100 shadow-xl"></div>
             <div className="absolute inset-2 rounded-full overflow-hidden border-4 border-orange-200">
               <Image
-                src="/placeholder.svg?height=800&width=600&query=historical portrait of Chhatrapati Shivaji Maharaj in royal attire with turban"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Shivaji_British_Museum.jpg-eFm8GVhbb7R78j6T9biZ4EhIkErV5p.jpeg"
                 alt="Historical portrait of Chhatrapati Shivaji Maharaj"
                 fill
                 className="object-cover"
@@ -26,7 +26,7 @@ export default function HeroPortrait() {
             </p>
             <div className="relative h-16 w-64 mx-auto mt-6">
               <Image
-                src="/placeholder.svg?height=200&width=400&query=signature of Chhatrapati Shivaji Maharaj in Modi script"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Shivaji_I_signature.svg/1200px-Shivaji_I_signature.svg.png"
                 alt="Signature of Chhatrapati Shivaji Maharaj"
                 fill
                 className="object-contain"
