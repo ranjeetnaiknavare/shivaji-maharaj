@@ -5,6 +5,8 @@ import "./globals.css"
 import AnnouncementBar from "@/components/announcement-bar"
 import Navbar from "@/components/navbar"
 import HistoricalInsightsTicker from "@/components/historical-insights-ticker"
+import MaintenanceMode from "@/components/maintenance-mode"
+import { siteConfig } from "@/config/site"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -20,7 +22,7 @@ export const metadata: Metadata = {
       "Explore the extraordinary life, military conquests, and progressive governance of the founder of the Maratha Empire who challenged the mighty Mughals.",
     images: [
       {
-        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Shivaji_British_Museum.jpg-l4GEH799GvKBDe9rhYgRCjiZVeHSMA.jpeg",
+        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Shivaji_British_Museum.jpg-eFm8GVhbb7R78j6T9biZ4EhIkErV5p.jpeg",
         width: 1200,
         height: 630,
         alt: "Chhatrapati Shivaji Maharaj Portrait",
@@ -39,6 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        {siteConfig.maintenanceMode && <MaintenanceMode />}
         <AnnouncementBar />
         <Navbar />
         <HistoricalInsightsTicker />
